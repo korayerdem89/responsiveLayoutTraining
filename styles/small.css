@@ -5,6 +5,42 @@ html { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
     -moz-box-sizing: border-box;
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
+    font-size:small;
+    font-family: verdana, arial;
+    font-weight:400;
     }
 
+
+footer {
+display:flex;
+flex-wrap:wrap;
+margin:auto;
+text-align:center;
+width:80vw;
+
+}
+
+footer > div{
+     display:flex;
+     flex-direction:column;
+    flex:1 1 50%;
+    background-color:beige;
+    padding:1em;
+   
+  
+}
+
+footer > div h1 {
+    
+
+}
+
+footer > div > ul {
+     text-align:left;
+     margin:auto;
+     
+}
+footer > div > ul > li {
+     
+}
 
