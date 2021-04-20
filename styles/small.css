@@ -5,42 +5,47 @@ html { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
     -moz-box-sizing: border-box;
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
-    font-size:small;
+    font-size:0.8em;
     font-family: verdana, arial;
-    font-weight:400;
+    font-weight:100;
     }
 
 
 footer {
 display:flex;
-flex-wrap:wrap;
-margin:auto;
-text-align:center;
-width:80vw;
-
+flex-direction:column;
+width:100vw;
 }
 
 footer > div{
-     display:flex;
-     flex-direction:column;
-    flex:1 1 50%;
-    background-color:beige;
-    padding:1em;
-   
-  
-}
+margin:auto; 
+text-align:center;
+background-color:rgba(221, 139, 139, 0.857);
+ }
 
-footer > div h1 {
-    
+ footer > div h1 {
 
-}
+    font-weight:bold;
+ }
 
-footer > div > ul {
-     text-align:left;
-     margin:auto;
-     
-}
-footer > div > ul > li {
-     
-}
+ footer > div > ul {
+display:flex;
+ border:1px solid rgb(80, 41, 12);
+justify-content:space-evenly;
+width:100vw;
+padding:0.6em;
+min-width:200px;
+font-size:1rem;
+color:rgb(196, 188, 188);
+background-color:  rgb(189, 93, 90);
+ }
 
+ footer > div > ul > li {
+     list-style:none;
+    text-decoration:none;
+ }
+
+ footer > div > ul > li > a{
+     text-decoration:none;
+     cursor:pointer;
+ }
